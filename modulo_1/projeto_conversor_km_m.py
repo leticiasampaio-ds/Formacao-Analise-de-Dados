@@ -13,7 +13,7 @@ def conversao_km_m(n_km):
     resultado_conversao = n_km * 1000
     return resultado_conversao
 
-resultado = conversao_km_m(input_em_km_int)
+resultado = conversao_km_m(n_km=input_em_km_int)
 
 # Regra 3
 print(f"Esse é seu número em metros: {resultado}")
