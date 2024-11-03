@@ -4,16 +4,18 @@
 # Tesoura ganha do Papel
 # Papel ganha da Pedra
 
+# 1. Importar biblioteca
+import random
+
 # O que meu programa vai fazer:
-# 1. Usuário vai falar se é: pedra, papel ou tesoura (input)
+# 2. Usuário vai falar se é: pedra, papel ou tesoura (input)
 entrada_usuario = input("Escolha sua arma: ")
 # Verificar entrada
 possibilidades = ["pedra", "papel", "tesoura"]
 verificacao = entrada_usuario in possibilidades
 
 if verificacao == True:
-    # 2. Random.
-    import random
+    # Utilizar biblioteca Random
     resultado_da_maquina = random.choice(possibilidades)
     # 3. Ver quem ganha (Condicional - If, Elif, Else)
     # 4. Mostra o resultado (print())
